@@ -130,7 +130,7 @@ extends <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?
  <pre><code>
     AmazonS3Client client = new AmazonS3Client(awsCreds);
 
-    // Setting up
+    // Initial Setting up
     int numStreams = 2;
     final StreamTransferManager manager = new StreamTransferManager(bucket, key, client)
             .numStreams(numStreams)
